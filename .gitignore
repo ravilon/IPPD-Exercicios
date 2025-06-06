@@ -1,0 +1,54 @@
+# Compilados comuns
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.a
+*.so
+*.dll
+*.lib
+
+# Arquivos de depuração
+*.dSYM/
+*.stackdump
+*.core
+
+# Arquivos de IDEs
+# CLion
+.idea/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+*.layout.save
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos temporários
+*~
+*.swp
+*.tmp
+
+# Logs
+*.log
+
+# Diretórios comuns de build
+/build/
+/bin/
+/Debug/
+/Release/
+/dist/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
