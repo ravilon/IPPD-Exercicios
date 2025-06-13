@@ -11,7 +11,7 @@ unsigned int lcg_rand(unsigned int *seed) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
-        printf("Uso: %s <tamanho do vetor> <número de threads>\n", argv[0]);
+        printf("Uso: %s <tamanho do vetor> <núme0ro de threads>\n", argv[0]);
         return 1;
     }
 
